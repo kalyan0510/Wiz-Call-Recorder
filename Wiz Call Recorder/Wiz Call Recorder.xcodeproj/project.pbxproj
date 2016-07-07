@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98000A871D2E018200DD0B4D /* MyParticleSystem.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 98000A851D2E018200DD0B4D /* MyParticleSystem.scnp */; };
+		98000A881D2E018200DD0B4D /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 98000A861D2E018200DD0B4D /* bokeh.png */; };
+		983A6C541D24E3E2007679D9 /* HRToast+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A6C531D24E3E2007679D9 /* HRToast+UIView.swift */; };
+		983A6C561D24EE98007679D9 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A6C551D24EE98007679D9 /* Utilities.swift */; };
+		983A6C581D254A9F007679D9 /* CallRecorderConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A6C571D254A9F007679D9 /* CallRecorderConfigViewController.swift */; };
+		98B116781D2679B900412B88 /* AllRecordingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B116771D2679B900412B88 /* AllRecordingsViewController.swift */; };
+		98B1167A1D26CD3100412B88 /* CloudRecordingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B116791D26CD3100412B88 /* CloudRecordingsViewController.swift */; };
+		98B1167C1D26CF3100412B88 /* ImportantRecordingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B1167B1D26CF3100412B88 /* ImportantRecordingsTableViewController.swift */; };
+		98B116801D27E03900412B88 /* AudioVideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B1167F1D27E03900412B88 /* AudioVideoPlayerViewController.swift */; };
+		98B116821D27F0EB00412B88 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B116811D27F0EB00412B88 /* AudioPlayer.swift */; };
+		98B116841D28E9F300412B88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B116831D28E9F300412B88 /* Main.storyboard */; };
+		98B116861D28FEA800412B88 /* FunnyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B116851D28FEA800412B88 /* FunnyViewController.swift */; };
+		98F3B1C71D23A41800685839 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F3B1C61D23A41800685839 /* AppDelegate.swift */; };
+		98F3B1C91D23A41800685839 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F3B1C81D23A41800685839 /* ViewController.swift */; };
+		98F3B1CF1D23A41800685839 /* Wiz_Call_Recorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98F3B1CD1D23A41800685839 /* Wiz_Call_Recorder.xcdatamodeld */; };
+		98F3B1D11D23A41800685839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F3B1D01D23A41800685839 /* Assets.xcassets */; };
+		98F3B1D41D23A41800685839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F3B1D21D23A41800685839 /* LaunchScreen.storyboard */; };
+		98F3B1DF1D23A41800685839 /* Wiz_Call_RecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F3B1DE1D23A41800685839 /* Wiz_Call_RecorderTests.swift */; };
+		98F3B1EA1D23A41800685839 /* Wiz_Call_RecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F3B1E91D23A41800685839 /* Wiz_Call_RecorderUITests.swift */; };
+		98F3B1F81D23DAB000685839 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F3B1F71D23DAB000685839 /* ContainerViewController.swift */; };
+		98F3B1FA1D23DAFC00685839 /* SidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F3B1F91D23DAFC00685839 /* SidePanelViewController.swift */; };
+		98F3B1FC1D23DBAB00685839 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F3B1FB1D23DBAB00685839 /* CenterViewController.swift */; };
+		98F3B2021D23FD6500685839 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F3B2011D23FD6500685839 /* SettingsViewController.swift */; };
+		98F3B2041D241DD900685839 /* RecordingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F3B2031D241DD900685839 /* RecordingsViewController.swift */; };
+		98F3B2061D241DF000685839 /* VoiceRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F3B2051D241DF000685839 /* VoiceRecordViewController.swift */; };
+		98F3B2081D241E0000685839 /* CloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F3B2071D241E0000685839 /* CloudViewController.swift */; };
+		98F3B20A1D241EE300685839 /* ShareAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F3B2091D241EE300685839 /* ShareAppViewController.swift */; };
+		98F3B20C1D241EF500685839 /* AboutAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F3B20B1D241EF500685839 /* AboutAppViewController.swift */; };
+		98FDCD221D2A77DF00419885 /* EqualiserScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FDCD211D2A77DF00419885 /* EqualiserScene.swift */; };
+		98FDCD241D2A78BD00419885 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 98FDCD231D2A78BD00419885 /* MyScene.sks */; };
+		98FDCD271D2BA76A00419885 /* Atoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FDCD251D2BA76A00419885 /* Atoms.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98F3B1DB1D23A41800685839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F3B1BB1D23A41800685839 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98F3B1C21D23A41800685839;
+			remoteInfo = "Wiz Call Recorder";
+		};
+		98F3B1E61D23A41800685839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F3B1BB1D23A41800685839 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98F3B1C21D23A41800685839;
+			remoteInfo = "Wiz Call Recorder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98000A851D2E018200DD0B4D /* MyParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = MyParticleSystem.scnp; sourceTree = "<group>"; };
+		98000A861D2E018200DD0B4D /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
+		983A6C531D24E3E2007679D9 /* HRToast+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HRToast+UIView.swift"; sourceTree = "<group>"; };
+		983A6C551D24EE98007679D9 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		983A6C571D254A9F007679D9 /* CallRecorderConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallRecorderConfigViewController.swift; sourceTree = "<group>"; };
+		98B116771D2679B900412B88 /* AllRecordingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllRecordingsViewController.swift; sourceTree = "<group>"; };
+		98B116791D26CD3100412B88 /* CloudRecordingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudRecordingsViewController.swift; sourceTree = "<group>"; };
+		98B1167B1D26CF3100412B88 /* ImportantRecordingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportantRecordingsTableViewController.swift; sourceTree = "<group>"; };
+		98B1167F1D27E03900412B88 /* AudioVideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioVideoPlayerViewController.swift; sourceTree = "<group>"; };
+		98B116811D27F0EB00412B88 /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		98B116831D28E9F300412B88 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		98B116851D28FEA800412B88 /* FunnyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunnyViewController.swift; sourceTree = "<group>"; };
+		98F3B1C31D23A41800685839 /* Wiz Call Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wiz Call Recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F3B1C61D23A41800685839 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98F3B1C81D23A41800685839 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98F3B1CE1D23A41800685839 /* Wiz_Call_Recorder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wiz_Call_Recorder.xcdatamodel; sourceTree = "<group>"; };
+		98F3B1D01D23A41800685839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98F3B1D31D23A41800685839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98F3B1D51D23A41800685839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F3B1DA1D23A41800685839 /* Wiz Call RecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wiz Call RecorderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F3B1DE1D23A41800685839 /* Wiz_Call_RecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wiz_Call_RecorderTests.swift; sourceTree = "<group>"; };
+		98F3B1E01D23A41800685839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F3B1E51D23A41800685839 /* Wiz Call RecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wiz Call RecorderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F3B1E91D23A41800685839 /* Wiz_Call_RecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wiz_Call_RecorderUITests.swift; sourceTree = "<group>"; };
+		98F3B1EB1D23A41800685839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F3B1F71D23DAB000685839 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		98F3B1F91D23DAFC00685839 /* SidePanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidePanelViewController.swift; sourceTree = "<group>"; };
+		98F3B1FB1D23DBAB00685839 /* CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+		98F3B2011D23FD6500685839 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		98F3B2031D241DD900685839 /* RecordingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingsViewController.swift; sourceTree = "<group>"; };
+		98F3B2051D241DF000685839 /* VoiceRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRecordViewController.swift; sourceTree = "<group>"; };
+		98F3B2071D241E0000685839 /* CloudViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudViewController.swift; sourceTree = "<group>"; };
+		98F3B2091D241EE300685839 /* ShareAppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareAppViewController.swift; sourceTree = "<group>"; };
+		98F3B20B1D241EF500685839 /* AboutAppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutAppViewController.swift; sourceTree = "<group>"; };
+		98FDCD211D2A77DF00419885 /* EqualiserScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EqualiserScene.swift; path = ../EqualiserScene.swift; sourceTree = "<group>"; };
+		98FDCD231D2A78BD00419885 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		98FDCD251D2BA76A00419885 /* Atoms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atoms.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98F3B1C01D23A41800685839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F3B1D71D23A41800685839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F3B1E21D23A41800685839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98F3B1BA1D23A41800685839 = {
+			isa = PBXGroup;
+			children = (
+				98F3B1C51D23A41800685839 /* Wiz Call Recorder */,
+				98F3B1DD1D23A41800685839 /* Wiz Call RecorderTests */,
+				98F3B1E81D23A41800685839 /* Wiz Call RecorderUITests */,
+				98F3B1C41D23A41800685839 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98F3B1C41D23A41800685839 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98F3B1C31D23A41800685839 /* Wiz Call Recorder.app */,
+				98F3B1DA1D23A41800685839 /* Wiz Call RecorderTests.xctest */,
+				98F3B1E51D23A41800685839 /* Wiz Call RecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98F3B1C51D23A41800685839 /* Wiz Call Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				98F3B1C61D23A41800685839 /* AppDelegate.swift */,
+				98F3B1C81D23A41800685839 /* ViewController.swift */,
+				98B116811D27F0EB00412B88 /* AudioPlayer.swift */,
+				983A6C551D24EE98007679D9 /* Utilities.swift */,
+				98B116771D2679B900412B88 /* AllRecordingsViewController.swift */,
+				98B116831D28E9F300412B88 /* Main.storyboard */,
+				98000A851D2E018200DD0B4D /* MyParticleSystem.scnp */,
+				98000A861D2E018200DD0B4D /* bokeh.png */,
+				98FDCD231D2A78BD00419885 /* MyScene.sks */,
+				98FDCD211D2A77DF00419885 /* EqualiserScene.swift */,
+				98B116791D26CD3100412B88 /* CloudRecordingsViewController.swift */,
+				98B1167B1D26CF3100412B88 /* ImportantRecordingsTableViewController.swift */,
+				98F3B2031D241DD900685839 /* RecordingsViewController.swift */,
+				98F3B2051D241DF000685839 /* VoiceRecordViewController.swift */,
+				98B1167F1D27E03900412B88 /* AudioVideoPlayerViewController.swift */,
+				98B116851D28FEA800412B88 /* FunnyViewController.swift */,
+				98F3B2071D241E0000685839 /* CloudViewController.swift */,
+				98FDCD251D2BA76A00419885 /* Atoms.swift */,
+				98F3B2091D241EE300685839 /* ShareAppViewController.swift */,
+				98F3B20B1D241EF500685839 /* AboutAppViewController.swift */,
+				98F3B1F71D23DAB000685839 /* ContainerViewController.swift */,
+				98F3B2011D23FD6500685839 /* SettingsViewController.swift */,
+				983A6C571D254A9F007679D9 /* CallRecorderConfigViewController.swift */,
+				98F3B1FB1D23DBAB00685839 /* CenterViewController.swift */,
+				98F3B1F91D23DAFC00685839 /* SidePanelViewController.swift */,
+				983A6C531D24E3E2007679D9 /* HRToast+UIView.swift */,
+				98F3B1D01D23A41800685839 /* Assets.xcassets */,
+				98F3B1D21D23A41800685839 /* LaunchScreen.storyboard */,
+				98F3B1D51D23A41800685839 /* Info.plist */,
+				98F3B1CD1D23A41800685839 /* Wiz_Call_Recorder.xcdatamodeld */,
+			);
+			path = "Wiz Call Recorder";
+			sourceTree = "<group>";
+		};
+		98F3B1DD1D23A41800685839 /* Wiz Call RecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				98F3B1DE1D23A41800685839 /* Wiz_Call_RecorderTests.swift */,
+				98F3B1E01D23A41800685839 /* Info.plist */,
+			);
+			path = "Wiz Call RecorderTests";
+			sourceTree = "<group>";
+		};
+		98F3B1E81D23A41800685839 /* Wiz Call RecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98F3B1E91D23A41800685839 /* Wiz_Call_RecorderUITests.swift */,
+				98F3B1EB1D23A41800685839 /* Info.plist */,
+			);
+			path = "Wiz Call RecorderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98F3B1C21D23A41800685839 /* Wiz Call Recorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F3B1EE1D23A41800685839 /* Build configuration list for PBXNativeTarget "Wiz Call Recorder" */;
+			buildPhases = (
+				98F3B1BF1D23A41800685839 /* Sources */,
+				98F3B1C01D23A41800685839 /* Frameworks */,
+				98F3B1C11D23A41800685839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wiz Call Recorder";
+			productName = "Wiz Call Recorder";
+			productReference = 98F3B1C31D23A41800685839 /* Wiz Call Recorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98F3B1D91D23A41800685839 /* Wiz Call RecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F3B1F11D23A41800685839 /* Build configuration list for PBXNativeTarget "Wiz Call RecorderTests" */;
+			buildPhases = (
+				98F3B1D61D23A41800685839 /* Sources */,
+				98F3B1D71D23A41800685839 /* Frameworks */,
+				98F3B1D81D23A41800685839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98F3B1DC1D23A41800685839 /* PBXTargetDependency */,
+			);
+			name = "Wiz Call RecorderTests";
+			productName = "Wiz Call RecorderTests";
+			productReference = 98F3B1DA1D23A41800685839 /* Wiz Call RecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98F3B1E41D23A41800685839 /* Wiz Call RecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F3B1F41D23A41800685839 /* Build configuration list for PBXNativeTarget "Wiz Call RecorderUITests" */;
+			buildPhases = (
+				98F3B1E11D23A41800685839 /* Sources */,
+				98F3B1E21D23A41800685839 /* Frameworks */,
+				98F3B1E31D23A41800685839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98F3B1E71D23A41800685839 /* PBXTargetDependency */,
+			);
+			name = "Wiz Call RecorderUITests";
+			productName = "Wiz Call RecorderUITests";
+			productReference = 98F3B1E51D23A41800685839 /* Wiz Call RecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F3B1BB1D23A41800685839 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kalyan0510;
+				TargetAttributes = {
+					98F3B1C21D23A41800685839 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					98F3B1D91D23A41800685839 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 98F3B1C21D23A41800685839;
+					};
+					98F3B1E41D23A41800685839 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 98F3B1C21D23A41800685839;
+					};
+				};
+			};
+			buildConfigurationList = 98F3B1BE1D23A41800685839 /* Build configuration list for PBXProject "Wiz Call Recorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98F3B1BA1D23A41800685839;
+			productRefGroup = 98F3B1C41D23A41800685839 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98F3B1C21D23A41800685839 /* Wiz Call Recorder */,
+				98F3B1D91D23A41800685839 /* Wiz Call RecorderTests */,
+				98F3B1E41D23A41800685839 /* Wiz Call RecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98F3B1C11D23A41800685839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B116841D28E9F300412B88 /* Main.storyboard in Resources */,
+				98F3B1D41D23A41800685839 /* LaunchScreen.storyboard in Resources */,
+				98000A871D2E018200DD0B4D /* MyParticleSystem.scnp in Resources */,
+				98FDCD241D2A78BD00419885 /* MyScene.sks in Resources */,
+				98F3B1D11D23A41800685839 /* Assets.xcassets in Resources */,
+				98000A881D2E018200DD0B4D /* bokeh.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F3B1D81D23A41800685839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F3B1E31D23A41800685839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98F3B1BF1D23A41800685839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F3B2061D241DF000685839 /* VoiceRecordViewController.swift in Sources */,
+				98F3B2041D241DD900685839 /* RecordingsViewController.swift in Sources */,
+				983A6C561D24EE98007679D9 /* Utilities.swift in Sources */,
+				98F3B20C1D241EF500685839 /* AboutAppViewController.swift in Sources */,
+				98F3B2081D241E0000685839 /* CloudViewController.swift in Sources */,
+				98B116801D27E03900412B88 /* AudioVideoPlayerViewController.swift in Sources */,
+				98F3B20A1D241EE300685839 /* ShareAppViewController.swift in Sources */,
+				98B116821D27F0EB00412B88 /* AudioPlayer.swift in Sources */,
+				98F3B1C91D23A41800685839 /* ViewController.swift in Sources */,
+				983A6C581D254A9F007679D9 /* CallRecorderConfigViewController.swift in Sources */,
+				98B1167C1D26CF3100412B88 /* ImportantRecordingsTableViewController.swift in Sources */,
+				98FDCD221D2A77DF00419885 /* EqualiserScene.swift in Sources */,
+				983A6C541D24E3E2007679D9 /* HRToast+UIView.swift in Sources */,
+				98F3B1CF1D23A41800685839 /* Wiz_Call_Recorder.xcdatamodeld in Sources */,
+				98F3B1FA1D23DAFC00685839 /* SidePanelViewController.swift in Sources */,
+				98F3B1FC1D23DBAB00685839 /* CenterViewController.swift in Sources */,
+				98B116781D2679B900412B88 /* AllRecordingsViewController.swift in Sources */,
+				98FDCD271D2BA76A00419885 /* Atoms.swift in Sources */,
+				98F3B1F81D23DAB000685839 /* ContainerViewController.swift in Sources */,
+				98B116861D28FEA800412B88 /* FunnyViewController.swift in Sources */,
+				98B1167A1D26CD3100412B88 /* CloudRecordingsViewController.swift in Sources */,
+				98F3B1C71D23A41800685839 /* AppDelegate.swift in Sources */,
+				98F3B2021D23FD6500685839 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F3B1D61D23A41800685839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F3B1DF1D23A41800685839 /* Wiz_Call_RecorderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F3B1E11D23A41800685839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F3B1EA1D23A41800685839 /* Wiz_Call_RecorderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98F3B1DC1D23A41800685839 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98F3B1C21D23A41800685839 /* Wiz Call Recorder */;
+			targetProxy = 98F3B1DB1D23A41800685839 /* PBXContainerItemProxy */;
+		};
+		98F3B1E71D23A41800685839 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98F3B1C21D23A41800685839 /* Wiz Call Recorder */;
+			targetProxy = 98F3B1E61D23A41800685839 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98F3B1D21D23A41800685839 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98F3B1D31D23A41800685839 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98F3B1EC1D23A41800685839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98F3B1ED1D23A41800685839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98F3B1EF1D23A41800685839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wiz Call Recorder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalyan0510.Wiz-Call-Recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98F3B1F01D23A41800685839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wiz Call Recorder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalyan0510.Wiz-Call-Recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		98F3B1F21D23A41800685839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wiz Call RecorderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalyan0510.Wiz-Call-RecorderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wiz Call Recorder.app/Wiz Call Recorder";
+			};
+			name = Debug;
+		};
+		98F3B1F31D23A41800685839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wiz Call RecorderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalyan0510.Wiz-Call-RecorderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wiz Call Recorder.app/Wiz Call Recorder";
+			};
+			name = Release;
+		};
+		98F3B1F51D23A41800685839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wiz Call RecorderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalyan0510.Wiz-Call-RecorderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wiz Call Recorder";
+			};
+			name = Debug;
+		};
+		98F3B1F61D23A41800685839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wiz Call RecorderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalyan0510.Wiz-Call-RecorderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wiz Call Recorder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98F3B1BE1D23A41800685839 /* Build configuration list for PBXProject "Wiz Call Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F3B1EC1D23A41800685839 /* Debug */,
+				98F3B1ED1D23A41800685839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F3B1EE1D23A41800685839 /* Build configuration list for PBXNativeTarget "Wiz Call Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F3B1EF1D23A41800685839 /* Debug */,
+				98F3B1F01D23A41800685839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F3B1F11D23A41800685839 /* Build configuration list for PBXNativeTarget "Wiz Call RecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F3B1F21D23A41800685839 /* Debug */,
+				98F3B1F31D23A41800685839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F3B1F41D23A41800685839 /* Build configuration list for PBXNativeTarget "Wiz Call RecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F3B1F51D23A41800685839 /* Debug */,
+				98F3B1F61D23A41800685839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		98F3B1CD1D23A41800685839 /* Wiz_Call_Recorder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				98F3B1CE1D23A41800685839 /* Wiz_Call_Recorder.xcdatamodel */,
+			);
+			currentVersion = 98F3B1CE1D23A41800685839 /* Wiz_Call_Recorder.xcdatamodel */;
+			path = Wiz_Call_Recorder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 98F3B1BB1D23A41800685839 /* Project object */;
+}
