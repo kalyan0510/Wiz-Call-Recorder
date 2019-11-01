@@ -25,3 +25,5 @@ Music Visualiser
 ---------------------------------------------------------
 
 More details & screen shots in the root
+
+This package contains implementations for UI and the Visualizer.
